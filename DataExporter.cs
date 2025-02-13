@@ -20,7 +20,7 @@ namespace NinjaTrader.Custom.Strategies
             }
             else if (State == State.Configure)
             {
-                AddDataSeries(Data.BarsPeriodType.Minute, 60); // Anadir serie de datos de 60 minutos
+                AddDataSeries(Data.BarsPeriodType.Minute, 60); // A�adir serie de datos de 60 minutos
 
                 if (!File.Exists(filePath))
                 {
